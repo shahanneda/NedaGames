@@ -1,3 +1,4 @@
+
 html {
   background: url(Background.jpg) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -34,4 +35,41 @@ h1 {
   -ms-transform: translateX(-50%) translateY(-50%);
   -webkit-transform: translate(-50%,-50%);
   transform: translate(-50%,-50%);
+}
+
+.contact {
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  color: #FFFFFF;
+  font-family: Arial;
+  font-size: 40px;
+  font-weight: 100;
+  padding: 40px;
+  background-color: #0C040D;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+}
+
+.contact:hover {
+   background: #1E62D0;
+   background-image: -webkit-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -moz-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -ms-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: -o-linear-gradient(top, #1E62D0, #3D94F6);
+   background-image: linear-gradient(to bottom, #1E62D0, #3D94F6);
+   text-decoration: none;
+}
+
+.CenterButton {
+width: 200px;
+  display: block;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+.lolo{
+  color: magenta;
+  font-style: italic;
 }
